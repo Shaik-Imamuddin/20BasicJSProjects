@@ -1,0 +1,39 @@
+body{
+    background: #16404D;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: #DDA853;
+}
+
+img{
+    height: 250px;
+    width: 150px;
+}
+
+#img_div{
+    margin: auto;    
+    height: 250px;
+    width: 150px;
+}
+
+button{
+    height: 30px;
+    width: 75px;
+    box-shadow: #16404D;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #DDA853;
+}
+
+#btn_div{
+    margin: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
