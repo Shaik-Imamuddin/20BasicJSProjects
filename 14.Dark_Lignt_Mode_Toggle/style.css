@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    transition: all 1s;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+#toggleBtn {
+    font-size: 2rem;
+    background: black;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 100px;
+    height:60px;
+    border-radius: 10px;
+}
