@@ -1,0 +1,55 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+    }
+
+    .keyboard-wrapper {
+      position: relative;
+      display: flex;
+      padding: 20px;    
+      border-radius: 15px;
+      background: #222;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .white-key {
+      width: 60px;
+      height: 260px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 0 0 5px 5px;
+      z-index: 1;
+    }
+
+    .white-key:active {
+      background: #eee;
+    }
+
+    .black-key {
+      position: absolute;
+      width: 40px;
+      height: 160px;
+      background: black;
+      border-radius: 0 0 5px 5px;
+      z-index: 2;
+    }
+
+    .black-key:active {
+      background: #444;
+    }
+
+    /* Positioning black keys over the correct white keys */
+    .black-key.k1 { left: 45px; }
+    .black-key.k2 { left: 105px; }
+    .black-key.k3 { left: 225px; }
+    .black-key.k4 { left: 285px; }
+    .black-key.k5 { left: 345px; }
