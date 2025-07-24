@@ -1,7 +1,5 @@
 # 20BasicJSProjects
 
-# 20BasicJSProjects
-
 This repository contains 20 beginner-friendly JavaScript projects built to enhance my skills in web development. 
 These mini projects focus on core JavaScript concepts such as DOM manipulation, 
 event handling, functions, timers, conditional logic, arrays, and much more.
